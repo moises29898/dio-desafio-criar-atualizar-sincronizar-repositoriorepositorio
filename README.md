@@ -1,2 +1,2 @@
 # dio-desafio-criar-atualizar-sincronizar-repositorio
-## Prepararando algoritmo básico em portugol
+Prepararando algoritmo básico em Portugol
