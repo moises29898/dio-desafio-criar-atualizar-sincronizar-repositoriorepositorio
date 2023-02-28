@@ -1,31 +1,15 @@
-Etapas para realizar este projeto
-
-No servidor
-
-   1 - Abrir e logar o site GitHUb
-   2 - Na aba de seu repositorio, criar um repositório novo.
-       - nome do repositório
-       - vc pode marcar em anexo um arquivo readme.md
-       - tornar este repositório public
-       - por último só confirmar em "commit changes"
-   3 - Copiar o HTTPS destes arquivos na aba "CODE" cor verde.
-
-Na sua máquina local
-
-   1 - Abra um pasta para receber estes arquivos.
-   2 - No browse da mesma pasta com botao direito abra o Git Bash
-   3 - Agora clone este o link;
-       - git clone "HTTps....."
-   4 - Verifique através do git status sua pasta e arquivos readme.md e git.
-   5 - Faça as mudanças necessárias salve
-   6 - Verifique e adcione para reconhecer as mudanças através do comando;
-       - git add .
-   7 - Commitar as mudanças e preparar para enviar 
-       - git commit -m "titulo"
-   8 - Enviar para nuvem (GiTHub)
-       - git push origin main
-
-No servidor
-   1 Com f5 atualizar seus repositórios
-
-Finalizar
+Etapas para realizar este projeto;
+Na máquina local:
+  - abrir prompt comando (cmd)
+  - procurar a pasta desejada que contenha os arquivos para o push
+  - digitar os comandos nesta ordem;
+    
+     - git init  (para gerar inicialização e gerar o arquivo .git)
+     - git add . (para adcionar e reconhecer qualquer mudança que tenha sido feita nos arquivos ou pasta)
+     - git commit -m main  "um texto referente a este trabalho" (para comitar)
+     - git remote add origin https..........(endereço do repositório)
+     - git push -u origin main (para enviar para servidor GitHub)
+ No site do GitHub
+     atualizar a pagina e confirmar o repositório atualiazado.
+     
+ fim
